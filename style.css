@@ -1,0 +1,204 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    margin: auto; 
+    
+}
+body{
+    overflow-x: hidden;
+}
+nav{
+    background-color: black;
+     padding: 10px;
+    display: flex;  
+    justify-content: space-around;
+    position: sticky;
+    top:0%;
+    z-index: 1;
+}
+a{
+  text-decoration: none;
+  color: white;
+ padding: 10px 100px;
+}
+a:hover{
+    background-color: grey;
+    
+
+}
+.container{
+    width: 100%;
+   
+
+}
+img{
+    width: 100%;
+    height: 500px;
+    
+}
+.par1{
+    position: absolute;
+    background-color: black;
+    color: white;
+    top:520px;
+    left:20px;
+    padding: 5px 10px;
+}
+.par2{
+    position: absolute;
+   
+    color: white;
+    top:520px;
+    right:20px;
+    padding: 5px 10px;
+}
+.thecafe{
+    position: absolute;
+    font-size: 90px;
+    color: white;
+    top:200px;
+    left:600px;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.cafe{
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 600px;
+    margin-top: 70px;
+    padding: 10px;
+    font-family: Verdana sans-serif;
+  
+   
+}
+.container2{
+    width:100%;
+    padding: 10px 350px;
+    
+
+}
+.par3{
+    background-color: rgb(229, 245, 255);
+    border-left:5px  solid lightgrey;
+}
+.img2{
+    margin: 20px;
+    height: 400px;
+    margin-left: 2px;
+    
+}
+.menu{
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 600px;
+    margin-top: 70px;
+    padding: 10px;
+    font-family: Verdana sans-serif;
+}
+.nav2{
+    position: absolute;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 450px;
+    
+    margin-left: 335px;
+    padding-left: 5px;
+    margin-right: 100px;
+    padding-right: 15px;
+    width: 50%;
+    background-color: white;
+    border:2px  solid lightgrey;
+    
+
+
+}
+.nav2 .eat{
+    background-color: white;
+    color: black;
+}
+.nav2 .drink{
+    background-color: white;
+    color: black;
+}
+.nav2 a:hover{
+    background-color: lightgrey;
+    color: black;
+    padding: 8px 150px;
+}
+
+ .container3{
+    width: 100%;
+    padding: 5px 320px;
+    
+}
+    
+.img3{
+    margin: 10px;
+    height: 400px;
+    margin-right: 800px;
+    width: 670px;
+ 
+}
+.cafe2{
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 600px;
+    margin-top: 70px;
+    padding: 10px 30px;
+    font-family: Verdana sans-serif;
+  
+   
+}
+.container4{
+    width: 100%;
+     padding: 5px 320px;
+}
+.img4{
+    margin: 10px;
+    height: 400px;
+    margin-right: 500px;
+    width: 670px;
+ 
+}
+.container5{
+    width:100%;
+     padding: 5px 320px;
+}
+.input{
+    width: 100%;
+    padding: 15px;
+    margin: 5px; 
+ 
+}
+.container6{
+    width:100%;
+     padding: 5px 320px;
+}
+.buton{
+    background-color: black;
+    color: white;
+    width: 200px;
+    
+    margin: 5px;
+    padding: 10px;
+}
+button:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+.footer{
+    background-color: lightgrey;
+    color: black;
+    text-align: center;
+    align-content: center;
+    padding: 30px;
+    width: 100%;
+} 
