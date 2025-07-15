@@ -202,3 +202,51 @@ button:hover{
     padding: 30px;
     width: 100%;
 } 
+
+
+#eat:checked~.food-para{
+    display: block;
+}
+#drink:checked~.drink-para{
+    display: block;
+}
+.food-para,.drink-para{
+    display: none;
+    margin-top: 20px;
+}
+#eat,#drink{
+    display:none;
+}
+.container7{
+    width:48%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;  
+    /* margin-right: 400px; */
+    margin-left: 350px;
+    justify-content: space-evenly;
+   border: 1px solid rgb(255, 242, 242);
+    /* margin-right: 600px;
+    padding-right: 600px;
+     */
+     /* margin-right: 10px; */
+   
+     margin-right: 600px;
+     
+}
+
+#eat-box,#drink-box{
+    padding:10px 120px; 
+    background-color: rgb(255, 255, 255);
+     /* margin-left:90px; */
+   margin-right: 30px;
+   width: 100%;
+   
+}
+#eat-box:hover{
+    background-color:lightgrey;
+}
+#drink-box:hover{
+    background-color: lightgrey;
+}
